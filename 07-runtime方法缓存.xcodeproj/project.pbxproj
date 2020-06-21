@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C3A791C23ED37F8004C7B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A791B23ED37F8004C7B9D /* main.m */; };
+		9C3A791C23ED37F8004C7B9D /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A791B23ED37F8004C7B9D /* main.mm */; };
+		9C3A792523ED3817004C7B9D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A792423ED3817004C7B9D /* Person.m */; };
+		9C3A792823ED4AEF004C7B9D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A792723ED4AEF004C7B9D /* Student.m */; };
+		9C3A792B23ED4B29004C7B9D /* GoodStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A792A23ED4B29004C7B9D /* GoodStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,14 @@
 
 /* Begin PBXFileReference section */
 		9C3A791823ED37F8004C7B9D /* 07-runtime方法缓存 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-runtime方法缓存"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C3A791B23ED37F8004C7B9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C3A791B23ED37F8004C7B9D /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		9C3A792223ED380D004C7B9D /* MJClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJClassInfo.h; sourceTree = "<group>"; };
+		9C3A792323ED3817004C7B9D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9C3A792423ED3817004C7B9D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9C3A792623ED4AEF004C7B9D /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		9C3A792723ED4AEF004C7B9D /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		9C3A792923ED4B29004C7B9D /* GoodStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodStudent.h; sourceTree = "<group>"; };
+		9C3A792A23ED4B29004C7B9D /* GoodStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,14 @@
 		9C3A791A23ED37F8004C7B9D /* 07-runtime方法缓存 */ = {
 			isa = PBXGroup;
 			children = (
-				9C3A791B23ED37F8004C7B9D /* main.m */,
+				9C3A791B23ED37F8004C7B9D /* main.mm */,
+				9C3A792323ED3817004C7B9D /* Person.h */,
+				9C3A792423ED3817004C7B9D /* Person.m */,
+				9C3A792623ED4AEF004C7B9D /* Student.h */,
+				9C3A792723ED4AEF004C7B9D /* Student.m */,
+				9C3A792923ED4B29004C7B9D /* GoodStudent.h */,
+				9C3A792A23ED4B29004C7B9D /* GoodStudent.m */,
+				9C3A792223ED380D004C7B9D /* MJClassInfo.h */,
 			);
 			path = "07-runtime方法缓存";
 			sourceTree = "<group>";
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3A791C23ED37F8004C7B9D /* main.m in Sources */,
+				9C3A792B23ED4B29004C7B9D /* GoodStudent.m in Sources */,
+				9C3A792523ED3817004C7B9D /* Person.m in Sources */,
+				9C3A791C23ED37F8004C7B9D /* main.mm in Sources */,
+				9C3A792823ED4AEF004C7B9D /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
